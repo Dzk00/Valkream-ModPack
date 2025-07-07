@@ -1,0 +1,27 @@
+name: CapeValkreamV2_mat
+original: LoxCape_Mat
+overwrite: false
+changes:
+  colors:
+    _Color: [1, 1, 1, 1]
+    _MetalColor: [1, 1, 1, 1]
+    _EmissionColor: [0, 0, 0, 1]
+  floats:
+    _Hue: 0
+    _Saturation: 0
+    _Value: 0
+    _Cutoff: 0.421
+    _Glossiness: 0.10
+    _UseGlossmap: 0
+    _Metallic: 0.5
+    _MetalGloss: 0.2
+    _BumpScale: 1
+    _TwoSidedNormals: 1
+    _UseStyles: 0
+    _Style: 0
+    _AddRain: 0
+    _Cull: 0
+  textures:
+    _MainTex: CapeValkreamV2
+    _MetallicGlossMap: LoxCape_M
+    _BumpMap: LoxCape_N

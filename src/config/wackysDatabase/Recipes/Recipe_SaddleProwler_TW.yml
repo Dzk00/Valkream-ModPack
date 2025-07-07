@@ -1,0 +1,16 @@
+name: SaddleProwler_TW
+clonePrefabName: 
+craftingStation: $piece_workbench
+minStationLevel: 4
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- ProwlerFang_TW:4:0:True
+- LoxPelt:4:0:True
+- TrophyProwler_TW:1:0:True
+- BlackMetal:5:0:True

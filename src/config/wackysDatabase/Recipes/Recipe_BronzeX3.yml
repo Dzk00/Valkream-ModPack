@@ -1,0 +1,15 @@
+name: BronzeX3
+clonePrefabName: Bronze
+craftingStation: $piece_forge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 3
+disabled: false
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- Copper:2:1:True
+- Tin:1:1:True
+- Coal:1:0:True

@@ -1,0 +1,16 @@
+name: Feaster
+clonePrefabName: Feaster
+craftingStation: $piece_forge
+minStationLevel: 5
+maxStationLevelCap: 7
+repairStation: 
+amount: 1
+disabled: false
+disabledUpgrade: true
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- Iron:2:0:True
+- ElderBark:2:0:True
+- Chain:2:0:True
+- IronNails:4:0:True

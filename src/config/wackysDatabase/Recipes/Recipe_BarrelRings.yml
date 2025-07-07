@@ -1,0 +1,13 @@
+name: BarrelRings
+clonePrefabName: BarrelRings
+craftingStation: $piece_forge
+minStationLevel: 2
+maxStationLevelCap: 7
+repairStation: 
+amount: 1
+disabled: false
+disabledUpgrade: true
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- Tin:1:0:True

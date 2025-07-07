@@ -1,0 +1,27 @@
+name: oak_log_loki_mat
+original: oak_log
+overwrite: false
+changes:
+  colors:
+    _Color: [0.49, 0.35, 0.20, 1.0]
+    _EmissionColor: [0, 0, 0, 0]
+  floats:
+    _Cutoff: 0
+    _Glossiness: 0.5
+    _GlossMapScale: 2
+    _SmoothnessTextureChannel: 0.5
+    _Metallic: 0.2
+    _SpecularHighlights: 1
+    _GlossyReflections: 1
+    _BumpScale: 0.5
+    _Parallax: 0.02
+    _OcclusionStrength: 1
+    _DetailNormalMapScale: 1
+    _UVSec: 0
+    _Mode: 0
+    _SrcBlend: 1
+    _DstBlend: 0
+    _ZWrite: 1
+  textures:
+    _MainTex: oak_log
+    _BumpMap: oak_log_n

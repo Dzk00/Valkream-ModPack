@@ -1,0 +1,54 @@
+name: Sapling_Tundraberry_TW
+piecehammer: _CultivatorPieceTable
+m_name: $consume_tundraberry_TW
+sizeMultiplier: 1
+m_description: ''
+customIcon: 
+clonePrefabName: 
+material: 
+damagedMaterial: 
+craftingStation: ''
+piecehammerCategory: Misc
+minStationLevel: 1
+amount: 1
+disabled: true
+adminonly: false
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: true
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: false
+notOnWood: false
+wearNTearData: 
+craftingStationData: 
+cSExtensionData: 
+cSExtensionDataList: 
+contData: 
+smelterData: 
+cookingStationData: 
+beehiveData: 
+fermStationData: 
+sapData: 
+incineratorData: 
+fireplaceData: 
+teleportWorldData: 
+plantData:
+  m_name: $sapling_tundraberry_TW
+  GrowTime: 4500
+  MaxGrowTime: 5500
+  GrowPrefab: Pickable_GrownTundraberry_TW
+  MinSize: 0.9
+  MaxSize: 1.25
+  GrowRadius: 0.5
+  GrowRadiusVines: 0
+  CultivatedGround: true
+  DestroyIfCantGrow: true
+  TolerateHeat: false
+  TolerateCold: true
+  Biomes: Mountain, DeepNorth
+build:
+- TundraBerry_TW:1:1:False

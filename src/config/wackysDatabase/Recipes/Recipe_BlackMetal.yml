@@ -1,0 +1,14 @@
+name: BlackMetal
+clonePrefabName: 
+craftingStation: $piece_forge
+minStationLevel: 6
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- BlackMetalScrap:1:0:True
+- Coal:5:0:True

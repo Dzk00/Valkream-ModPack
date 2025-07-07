@@ -1,0 +1,15 @@
+name: StaffClusterbomb
+clonePrefabName: 
+craftingStation: $piece_wizardtable_TW
+minStationLevel: 2
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- CharredBone:15:5:True
+- Blackwood:5:3:True
+- ProustitePowder:8:1:True

@@ -1,0 +1,20 @@
+hammer_area: hammer_command hammer from=x,z,y circle=r angle=a rect=w,d height=h
+hammer_object: hammer_command object from=x,z,y circle=r1-r2 angle=a rect=w1-w2,d height=h ignore=ignore
+hammer_slope: hammer_terrain_to slope
+hammer_spawn: hammer_command spawn_object $$ from=x,z,y radius=r1-r2
+hammer_terrain: hammer_command terrain from=x,z,y circle=r1-r2 angle=a rect=w1-w2,d
+hammer_terrain_to: hammer_shape rectangle;hammer_command terrain to=tx,tz,ty circle=r1-r2 rect=w1-w2,d
+hoe_object: hoe_command object from=x,z,y circle=r1-r2 angle=a rect=w1-w2,d height=h ignore=ignore
+hoe_slope: hoe_terrain_to slope
+hoe_spawn: hoe_command spawn_object $$ from=x,z,y radius=r1-r2
+hoe_terrain: hoe_command terrain from=x,z,y circle=r1-r2 angle=a rect=w1-w2,d
+hoe_terrain_to: hammer_shape rectangle;hoe_command terrain to=tx,tz,ty circle=r1-r2 rect=w1-w2,d
+t_o: tool tool_object
+t_s: tool tool_spawn
+t_t: tool tool_terrain
+tool_area: hammer from=<x>,<z>,<y> circle=<r>-<r2> angle=<a> rect=<w>-<w2>,<d> height=<h> ignore=<ignore> id=<include>
+tool_object: object from=<x>,<z>,<y> circle=<r>-<r2> angle=<a> rect=<w>-<w2>,<d> height=<h> ignore=<ignore> id=<include>
+tool_slope: tool_terrain_to slope
+tool_spawn: spawn_object $$ from=<x>,<z>,<y> radius=<r>-<r2>
+tool_terrain: terrain from=<x>,<z>,<y> circle=<r>-<r2> angle=<a> rect=<w>-<w2>,<d>
+tool_terrain_to: terrain to=<x>,<z>,<y> circle=<r>-<r2> rect=<w>-<w2>,<d>

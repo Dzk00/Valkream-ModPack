@@ -1,0 +1,64 @@
+name: VikingShipMed
+piecehammer: Hammer
+m_name: Long Navire Medium
+sizeMultiplier: 1.25
+m_description: ''
+customIcon: 
+clonePrefabName: VikingShip
+material: 
+damagedMaterial: 
+craftingStation: $piece_workbench
+piecehammerCategory: Bateaux
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: true
+noInWater: false
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: false
+notOnWood: false
+wearNTearData:
+  health: 4000
+  damageModifiers:
+    m_blunt: Normal
+    m_slash: Normal
+    m_pierce: Normal
+    m_chop: Immune
+    m_pickaxe: Immune
+    m_fire: Immune
+    m_frost: Immune
+    m_lightning: Immune
+    m_poison: Immune
+    m_spirit: Immune
+  noRoofWear: false
+  noSupportWear: false
+  supports: true
+  triggerPrivateArea: true
+  materialType: Wood
+craftingStationData: 
+cSExtensionData: 
+cSExtensionDataList: 
+contData: 
+smelterData: 
+cookingStationData: 
+beehiveData: 
+fermStationData: 
+sapData: 
+incineratorData: 
+fireplaceData: 
+teleportWorldData: 
+plantData: 
+shipData:
+  ashlandProof: false
+build:
+- IronNails:150:1:True
+- DeerHide:15:1:True
+- FineWood:60:1:True
+- BBA_Mast:1:1:True
+- BBA_LargeHull:1:1:True

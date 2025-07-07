@@ -1,0 +1,23 @@
+AvatarThrym:
+  health: 5
+  damage: 1.5
+
+AvatarDechuThrym:
+  health: 10
+  damage: 2
+
+AvatarDechaineThrym:
+  health: 15
+  damage: 3
+
+AvatarCelestFlame:
+  health: 4
+  damage: 3
+
+AvatarCelestSoul:
+  health: 4
+  damage: 1
+
+AvatarCelestFrost:
+  health: 4
+  damage: 1

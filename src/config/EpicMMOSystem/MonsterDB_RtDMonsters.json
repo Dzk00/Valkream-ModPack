@@ -1,0 +1,80 @@
+[
+  {
+    "name": "LuminousLooker_RtD",
+    "minExp": 310,
+    "maxExp": 380,
+    "level": 40
+  },
+  {
+    "name": "Shark_RtD",
+    "minExp": 340,
+    "maxExp": 410,
+    "level": 40
+  },
+  {
+    "name": "BoneFish_RtD",
+    "minExp": 290,
+    "maxExp": 360,
+    "level": 40
+  },
+  {
+    "name": "MurkPod_RtD",
+    "minExp": 310,
+    "maxExp": 380,
+    "level": 40
+  },
+  {
+    "name": "BoneSquid_RtD",
+    "minExp": 320,
+    "maxExp": 390,
+    "level": 40
+  },
+  {
+    "name": "CatFishWanderer_RtD",
+    "minExp": 320,
+    "maxExp": 390,
+    "level": 40
+  },
+  {
+    "name": "ReptileWanderer_RtD",
+    "minExp": 320,
+    "maxExp": 390,
+    "level": 40
+  },
+  {
+    "name": "Reptile_RtD",
+    "minExp": 320,
+    "maxExp": 390,
+    "level": 40
+  },
+  {
+    "name": "Belzor_RtD",
+    "minExp": 1500,
+    "maxExp": 2000,
+    "level": 55
+  },
+  {
+    "name": "MirLizard_RtD",
+    "minExp": 320,
+    "maxExp": 390,
+    "level": 40
+  },
+  {
+    "name": "Mirmaid_RtD",
+    "minExp": 320,
+    "maxExp": 390,
+    "level": 40
+  },
+  {
+    "name": "MirRake_RtD",
+    "minExp": 320,
+    "maxExp": 390,
+    "level": 40
+  },
+  {
+    "name": "Fairy4_RtD",
+    "minExp": 400,
+    "maxExp": 500,
+    "level": 40
+  }
+]

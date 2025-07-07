@@ -1,0 +1,16 @@
+name: ArmorMageChest
+clonePrefabName: 
+craftingStation: $piece_wizardtable_TW
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- LinenThread:20:10:True
+- Eitr:20:5:True
+- Feathers:10:0:True
+- ScaleHide:5:0:True

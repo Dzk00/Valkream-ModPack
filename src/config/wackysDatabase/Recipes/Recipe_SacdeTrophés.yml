@@ -1,0 +1,24 @@
+name: SacdeTrophés
+clonePrefabName: 
+craftingStation: $piece_workbench
+minStationLevel: 1
+maxStationLevelCap: 5
+repairStation: 
+amount: 1
+disabled: true
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs:
+- ValkreamCoins:5:2
+- RottenPelt_TW:10:2
+- TrollHide:10:2
+- RazorbackLeather_TW:10:2
+- ValkreamCoins:5:3
+- GrizzlyBearPelt_TW:20:3
+- LoxPelt:20:3
+- ProwlerFang_TW:20:3
+- ValkreamCoins:5:4
+- SerpentScale:40:4
+- ArcticWolfPelt_TW:40:4
+- DemonicPelt_TW:40:4
+reqs: []

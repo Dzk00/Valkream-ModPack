@@ -1,0 +1,15 @@
+name: MarketplaceHammer
+clonePrefabName: MarketplaceHammer
+craftingStation: $piece_workbench
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+disabledUpgrade: true
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- Wood:2:0:True
+- Stone:2:0:True
+- TinOre:5:0:True

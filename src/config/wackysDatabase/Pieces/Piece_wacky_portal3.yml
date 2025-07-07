@@ -1,0 +1,63 @@
+name: wacky_portal3
+piecehammer: Hammer
+m_name: $piece_portal_wacky_portal3
+sizeMultiplier: 1
+m_description: $piece_portal_wacky_portal3_description
+customIcon: 
+clonePrefabName: 
+material: 
+damagedMaterial: 
+craftingStation: $piece_workbench
+piecehammerCategory: Admin
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: true
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: true
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: true
+notOnWood: false
+wearNTearData:
+  health: 20000
+  damageModifiers:
+    m_blunt: Immune
+    m_slash: Immune
+    m_pierce: Immune
+    m_chop: Immune
+    m_pickaxe: Immune
+    m_fire: Immune
+    m_frost: Immune
+    m_lightning: Immune
+    m_poison: Immune
+    m_spirit: Immune
+  noRoofWear: false
+  noSupportWear: true
+  supports: true
+  triggerPrivateArea: true
+  materialType: Stone
+craftingStationData: 
+cSExtensionData: 
+cSExtensionDataList: 
+contData: 
+smelterData: 
+cookingStationData: 
+beehiveData: 
+fermStationData: 
+sapData: 
+incineratorData: 
+fireplaceData: 
+teleportWorldData:
+  AllowAllItems: false
+plantData: 
+shipData: 
+build:
+- FineWood:20:1:True
+- SurtlingCore:4:1:True
+- PortalMagicFluid:2:1:True
+- AdminCoins:1:1:False

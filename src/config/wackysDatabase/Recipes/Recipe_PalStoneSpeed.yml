@@ -1,0 +1,16 @@
+name: PalStoneSpeed
+clonePrefabName: 
+craftingStation: $piece_workbench
+minStationLevel: 4
+maxStationLevelCap: 
+repairStation: $piece_workbench
+amount: 1
+disabled: false
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- PalStoneCore:1:0:True
+- YmirRemains:4:2:True
+- Stone:10:5:True
+- ShardModer_TW:2:1:True

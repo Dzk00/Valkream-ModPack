@@ -1,0 +1,13 @@
+name: Chain
+clonePrefabName: Chain
+craftingStation: $piece_forge
+minStationLevel: 3
+maxStationLevelCap: 7
+repairStation: 
+amount: 1
+disabled: false
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- Iron:1:1:True

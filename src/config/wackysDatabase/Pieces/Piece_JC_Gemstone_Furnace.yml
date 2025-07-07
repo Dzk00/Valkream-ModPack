@@ -1,0 +1,137 @@
+name: JC_Gemstone_Furnace
+piecehammer: Hammer
+m_name: $jc_gemstone_furnace
+sizeMultiplier: 1
+m_description: Tailleur de gems astrale. Capacité de 25 unités. Traitement 1 unité par 30 secondes.
+customIcon: 
+clonePrefabName: 
+material: 
+damagedMaterial: 
+craftingStation: $jc_transmution_table
+piecehammerCategory: Perso
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: true
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: true
+notOnWood: false
+wearNTearData:
+  health: 1000
+  damageModifiers:
+    m_blunt: Normal
+    m_slash: Normal
+    m_pierce: Resistant
+    m_chop: Weak
+    m_pickaxe: Normal
+    m_fire: Normal
+    m_frost: Resistant
+    m_lightning: Normal
+    m_poison: Immune
+    m_spirit: Immune
+  noRoofWear: true
+  noSupportWear: true
+  supports: false
+  triggerPrivateArea: true
+craftingStationData: 
+cSExtensionData: 
+cSExtensionDataList: 
+- MainCraftingStationName: op_transmution_table
+  maxStationDistance: 5
+  continousConnection: false
+  stack: false
+contData: 
+smelterData:
+  addOreTooltip: $jc_gemstone_furnace_additem
+  emptyOreTooltip: $jc_gemstone_furnace_empty
+  fuelItem:
+    name: Coal
+  maxOre: 25
+  maxFuel: 25
+  fuelPerProduct: 1
+  secPerProduct: 30
+  spawnStack: false
+  requiresRoof: false
+  addOreAnimationLength: 0
+  smelterConversion:
+  - FromName: Uncut_Black_Stone
+    ToName: Simple_Black_Socket
+    Remove: false
+  - FromName: Simple_Black_Socket
+    ToName: Advanced_Black_Socket
+    Remove: false
+  - FromName: Uncut_Blue_Stone
+    ToName: Simple_Blue_Socket
+    Remove: false
+  - FromName: Simple_Blue_Socket
+    ToName: Advanced_Blue_Socket
+    Remove: false
+  - FromName: Uncut_Red_Stone
+    ToName: Simple_Red_Socket
+    Remove: false
+  - FromName: Simple_Red_Socket
+    ToName: Advanced_Red_Socket
+    Remove: false
+  - FromName: Uncut_Yellow_Stone
+    ToName: Simple_Yellow_Socket
+    Remove: false
+  - FromName: Simple_Yellow_Socket
+    ToName: Advanced_Yellow_Socket
+    Remove: false
+  - FromName: Uncut_Green_Stone
+    ToName: Simple_Green_Socket
+    Remove: false
+  - FromName: Simple_Green_Socket
+    ToName: Advanced_Green_Socket
+    Remove: false
+  - FromName: Uncut_Purple_Stone
+    ToName: Simple_Purple_Socket
+    Remove: false
+  - FromName: Simple_Purple_Socket
+    ToName: Advanced_Purple_Socket
+    Remove: false
+  - FromName: Uncut_Orange_Stone
+    ToName: Simple_Orange_Socket
+    Remove: false
+  - FromName: Simple_Orange_Socket
+    ToName: Advanced_Orange_Socket
+    Remove: false
+  - FromName: Uncut_Cyan_Stone
+    ToName: Simple_Cyan_Socket
+    Remove: false
+  - FromName: Simple_Cyan_Socket
+    ToName: Advanced_Cyan_Socket
+    Remove: false
+  - FromName: Uncut_blueish_Stone
+    ToName: Simple_blueish_Socket
+    Remove: false
+  - FromName: Simple_blueish_Socket
+    ToName: Advanced_blueish_Socket
+    Remove: false
+  - FromName: Uncut_redish_Stone
+    ToName: Simple_redish_Socket
+    Remove: false
+  - FromName: Simple_redish_Socket
+    ToName: Advanced_redish_Socket
+    Remove: false
+cookingStationData: 
+beehiveData: 
+fermStationData: 
+sapData: 
+incineratorData: 
+fireplaceData: 
+teleportWorldData: 
+plantData: 
+build:
+- GemCutterCore:1:1:True
+- Blackwood:20:1:True
+- GemstoneGreen:1:1:True
+- GemstoneRed:1:1:True
+- GemstoneBlue:1:1:True

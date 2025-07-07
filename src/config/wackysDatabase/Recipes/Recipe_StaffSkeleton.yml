@@ -1,0 +1,15 @@
+name: StaffSkeleton
+clonePrefabName: 
+craftingStation: $piece_wizardtable_TW
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- BoneFragments:10:5:True
+- Eitr:16:8:True
+- TrophySkeleton:4:2:True

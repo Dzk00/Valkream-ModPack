@@ -1,0 +1,11 @@
+name: GemCutterCore_mat
+original: mirror2
+overwrite: false
+changes:
+  colors:
+    _Color: [0, 0, 1, 1]
+  floats: {}
+  textures:
+    _MainTex:
+      name: celest 1
+      filterMode: Bilinear

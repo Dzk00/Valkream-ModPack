@@ -1,0 +1,60 @@
+name: MarketStall_Small
+piecehammer: Hammer
+m_name: Petit marché personnel
+sizeMultiplier: 1
+m_description: Le marché personnel vous permet de vendre des objets au prix désirez et à l’endroit voulu. Vous ne pouvez pas vendre de nourritures. Aucune taxe n’est facturée au client. Vous pouvez posséder seulement 1 marché personnel.
+customIcon: 
+clonePrefabName: 
+material: 
+damagedMaterial: 
+craftingStation: ''
+piecehammerCategory: Perso
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: false
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: true
+notOnWood: false
+wearNTearData:
+  health: 1000
+  damageModifiers:
+    m_blunt: Ignore
+    m_slash: Ignore
+    m_pierce: Ignore
+    m_chop: Ignore
+    m_pickaxe: Ignore
+    m_fire: Ignore
+    m_frost: Ignore
+    m_lightning: Ignore
+    m_poison: Ignore
+    m_spirit: Ignore
+  noRoofWear: true
+  noSupportWear: true
+  supports: true
+  triggerPrivateArea: true
+craftingStationData: 
+cSExtensionData: 
+cSExtensionDataList: 
+contData: 
+smelterData: 
+cookingStationData: 
+beehiveData: 
+fermStationData: 
+sapData: 
+incineratorData: 
+fireplaceData: 
+teleportWorldData: 
+plantData: 
+build:
+- MarketStallKit:1:1:True
+- FineWood:50:1:True
+- Thunderstone:1:1:True
+- Bronze:5:1:True

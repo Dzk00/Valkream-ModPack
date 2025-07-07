@@ -1,0 +1,59 @@
+name: lift_gate2
+piecehammer: Hammer
+m_name: $piece_mg_lift_gate2
+sizeMultiplier: 1
+m_description: $piece_mg_lift_gate2_desc
+customIcon: 
+clonePrefabName: 
+material: 
+damagedMaterial: 
+craftingStation: $piece_workbench
+piecehammerCategory: BuildingStonecutter
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: false
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: true
+notOnWood: false
+wearNTearData:
+  health: 900
+  damageModifiers:
+    m_blunt: Normal
+    m_slash: Resistant
+    m_pierce: Resistant
+    m_chop: Resistant
+    m_pickaxe: Resistant
+    m_fire: Immune
+    m_frost: Immune
+    m_lightning: Resistant
+    m_poison: Resistant
+    m_spirit: Immune
+  noRoofWear: false
+  noSupportWear: true
+  supports: true
+  triggerPrivateArea: true
+craftingStationData: 
+cSExtensionData: 
+cSExtensionDataList: 
+contData: 
+smelterData: 
+cookingStationData: 
+beehiveData: 
+fermStationData: 
+sapData: 
+incineratorData: 
+fireplaceData: 
+teleportWorldData: 
+plantData: 
+build:
+- Wood:75:0:True
+- Bronze:8:0:True
+- Chain:4:0:True

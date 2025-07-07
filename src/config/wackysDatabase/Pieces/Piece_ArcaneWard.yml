@@ -1,0 +1,46 @@
+name: ArcaneWard
+piecehammer: Hammer
+m_name: Balise Divine
+sizeMultiplier: 1
+m_description: 'Protection adéquate pour votre endroit de rêve. Contrôle d’accès exclusivement par le propriétaire. Limite de 1 par viking.'
+customIcon: 
+clonePrefabName: 
+material: 
+damagedMaterial: 
+craftingStation: ''
+piecehammerCategory: Perso
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: false
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: true
+notOnWood: false
+wearNTearData: 
+craftingStationData: 
+cSExtensionData: 
+cSExtensionDataList: 
+contData: 
+smelterData: 
+cookingStationData: 
+beehiveData: 
+fermStationData: 
+sapData: 
+incineratorData: 
+fireplaceData: 
+teleportWorldData: 
+plantData: 
+build:
+- WardCore:1:1:True
+- Stone:20:1:True
+- SurtlingCore:5:1:True
+- BMR_FireEssence:5:1:True
+- BMR_IceEssence:5:1:True
+- BMR_LightningEssence:5:1:True

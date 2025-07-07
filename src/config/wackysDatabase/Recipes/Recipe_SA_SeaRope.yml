@@ -1,0 +1,14 @@
+name: SA_SeaRope
+clonePrefabName: 
+craftingStation: $bba_boatyard
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- FairySilkG_RtD:10:0:True
+- SeaWeed_RtD:5:0:True

@@ -1,0 +1,10 @@
+- keys: backquote
+  command: spawn vfx_BrutalisWhip_hit_TW
+- keys: backquote
+  command: spawn vfx_StaffStorms_attack_Storm_TW
+- keys: backquote
+  command: spawn vfx_StaffMountain_LightExplosion_TW
+- keys: backquote
+  command: spawn vfx_HealthUpgrade
+- keys: backquote
+  command: ghost

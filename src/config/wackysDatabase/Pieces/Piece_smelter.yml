@@ -1,0 +1,92 @@
+name: smelter
+piecehammer: Hammer
+m_name: $piece_smelter
+sizeMultiplier: 1
+m_description: 'Permet de fondre les métaux pour en faire des lingots. Capacité de 20 unités de minerais et 40 unités de charbons.  Traitement: 1 unité de minerais pour 2 unités de charbon toutes les 30 secondes.'
+customIcon: 
+clonePrefabName: 
+material: 
+damagedMaterial: 
+craftingStation: $piece_workbench
+piecehammerCategory: Perso
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: true
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: true
+notOnWood: true
+wearNTearData:
+  health: 2000
+  damageModifiers:
+    m_blunt: Normal
+    m_slash: Normal
+    m_pierce: Normal
+    m_chop: Normal
+    m_pickaxe: Normal
+    m_fire: Immune
+    m_frost: Immune
+    m_lightning: Immune
+    m_poison: Immune
+    m_spirit: Immune
+  noRoofWear: false
+  noSupportWear: true
+  supports: true
+  triggerPrivateArea: true
+craftingStationData: 
+cSExtensionData: 
+cSExtensionDataList: 
+contData: 
+smelterData:
+  addOreTooltip: $piece_smelter_additem
+  emptyOreTooltip: $piece_smelter_empty
+  fuelItem:
+    name: Coal
+  maxOre: 20
+  maxFuel: 40
+  fuelPerProduct: 2
+  secPerProduct: 30
+  spawnStack: false
+  requiresRoof: false
+  addOreAnimationLength: 0
+  smelterConversion:
+  - FromName: CopperOre
+    ToName: Copper
+    Remove: false
+  - FromName: IronOre
+    ToName: Iron
+    Remove: false
+  - FromName: IronScrap
+    ToName: Iron
+    Remove: false
+  - FromName: BronzeScrap
+    ToName: Bronze
+    Remove: false
+  - FromName: TinOre
+    ToName: Tin
+    Remove: false
+  - FromName: SilverOre
+    ToName: Silver
+    Remove: false
+  - FromName: CopperScrap
+    ToName: Copper
+    Remove: false
+cookingStationData: 
+beehiveData: 
+fermStationData: 
+sapData: 
+incineratorData: 
+fireplaceData: 
+teleportWorldData: 
+plantData: 
+build:
+- ForgeCore:1:1:True
+- Stone:20:1:True
+- SurtlingCore:5:1:True

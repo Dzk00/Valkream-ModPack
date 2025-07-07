@@ -1,0 +1,14 @@
+name: RYmirRemains
+clonePrefabName: YmirRemains
+craftingStation: '$pp_alchemy_table'
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $pp_alchemy_table
+amount: 2
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- Ooze:5:0:True
+- Resin:5:0:True
+- BoneFragments:5:0:True
+- HardAntler:2:0:True

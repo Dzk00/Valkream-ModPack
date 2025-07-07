@@ -1,0 +1,16 @@
+name: BMR_ClusterBombScroll
+clonePrefabName: 
+craftingStation: $piece_wizardtable_TW
+minStationLevel: 4
+maxStationLevelCap: 
+repairStation: 
+amount: 20
+disabled: false
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- BMR_PaperAncient:20:0:True
+- FlametalOreNew:10:0:True
+- SulfurStone:10:0:True
+- ProustitePowder:10:0:True

@@ -1,0 +1,16 @@
+name: CapeValkreamV2
+clonePrefabName: CapeValkreamV2
+craftingStation: $piece_workbench
+minStationLevel: 2
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+disabledUpgrade: true
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- LinenThread:20:10:True
+- Eitr:20:5:True
+- Feathers:10:0:True
+- ScaleHide:5:0:True

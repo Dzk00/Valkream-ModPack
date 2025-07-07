@@ -1,0 +1,812 @@
+name: piece_cookingstation
+piecehammer: Hammer
+m_name: $piece_cookingstation
+sizeMultiplier: 1
+m_description: ''
+customIcon: 
+clonePrefabName: 
+material: 
+damagedMaterial: 
+craftingStation: ''
+piecehammerCategory: Crafting
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: true
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: true
+notOnWood: false
+wearNTearData:
+  health: 20
+  damageModifiers:
+    m_blunt: Normal
+    m_slash: Normal
+    m_pierce: Resistant
+    m_chop: Normal
+    m_pickaxe: Normal
+    m_fire: Resistant
+    m_frost: Normal
+    m_lightning: Normal
+    m_poison: Immune
+    m_spirit: Immune
+  noRoofWear: false
+  noSupportWear: true
+  supports: true
+  triggerPrivateArea: true
+craftingStationData: 
+cSExtensionData: 
+cSExtensionDataList: 
+contData: 
+smelterData: 
+cookingStationData:
+  addItemTooltip: $piece_cstand_cook
+  overcookedItem: Coal
+  fuelItem: 
+  requireFire: true
+  maxFuel: 
+  secPerFuel: 
+  cookConversion:
+  - FromName: RawMeat
+    ToName: CookedMeat
+    CookTime: 25
+    Remove: false
+  - FromName: NeckTail
+    ToName: NeckTailGrilled
+    CookTime: 25
+    Remove: false
+  - FromName: FishRaw
+    ToName: FishCooked
+    CookTime: 25
+    Remove: false
+  - FromName: DeerMeat
+    ToName: CookedDeerMeat
+    CookTime: 25
+    Remove: false
+  - FromName: WolfMeat
+    ToName: CookedWolfMeat
+    CookTime: 25
+    Remove: false
+  - FromName: ChickenMeat
+    ToName: CookedChickenMeat
+    CookTime: 25
+    Remove: false
+  - FromName: HareMeat
+    ToName: CookedHareMeat
+    CookTime: 25
+    Remove: false
+  - FromName: SA_CrocoMeat
+    ToName: SA_CrocoMeatCook
+    CookTime: 25
+    Remove: false
+  - FromName: SA_WhaleMeat
+    ToName: SA_RoastWhaleMeat
+    CookTime: 25
+    Remove: false
+  - FromName: SA_PenguinMeat
+    ToName: SA_PenguinMeatCook
+    CookTime: 25
+    Remove: false
+  - FromName: SA_SealMeat
+    ToName: SA_SealMeatCook
+    CookTime: 25
+    Remove: false
+  - FromName: SA_SharkMeat
+    ToName: SA_RoastSharkMeat
+    CookTime: 25
+    Remove: false
+  - FromName: SA_TurtleMeat
+    ToName: SA_TurtleMeatCook
+    CookTime: 25
+    Remove: false
+  - FromName: TF1AmberjackDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1AmurDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1BlackSpottedDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1BluetangDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1ClownfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1FoureyebutterflyfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1LionfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1PurplefishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1RainbowcichlidDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1TrumpetfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1TurtleDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1WhiteMulletDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1YellowBoxfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2BobaDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2BrownTroutDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2ButterflyfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2CuttlefishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2EmperorAngelfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2FrontosaDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2GoldCarpDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2GoldRedeyeDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2LongearSunfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2MoorishIdolDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2NimbochromisDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2OrangespineUnicornfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2OreochromisDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3AtlanticCodDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3BarracudaDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3BlueMarlinDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3CobiaDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3CorvinaDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3GiantSeaBassDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3GoliathGrouperDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3MahiMahiDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3StingrayDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3XipDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3YellowfinTunaDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: FoxMeat_TW
+    ToName: CookedFoxMeat_TW
+    CookTime: 30
+    Remove: false
+  - FromName: BearSteak_TW
+    ToName: CookedBearSteak_TW
+    CookTime: 30
+    Remove: false
+  - FromName: SA_CrocoMeat
+    ToName: SA_CrocoMeatCook
+    CookTime: 25
+    Remove: false
+  - FromName: SA_WhaleMeat
+    ToName: SA_RoastWhaleMeat
+    CookTime: 25
+    Remove: false
+  - FromName: SA_PenguinMeat
+    ToName: SA_PenguinMeatCook
+    CookTime: 25
+    Remove: false
+  - FromName: SA_SealMeat
+    ToName: SA_SealMeatCook
+    CookTime: 25
+    Remove: false
+  - FromName: SA_SharkMeat
+    ToName: SA_RoastSharkMeat
+    CookTime: 25
+    Remove: false
+  - FromName: SA_TurtleMeat
+    ToName: SA_TurtleMeatCook
+    CookTime: 25
+    Remove: false
+  - FromName: TF1AmberjackDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1AmurDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1BlackSpottedDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1BluetangDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1ClownfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1FoureyebutterflyfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1LionfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1PurplefishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1RainbowcichlidDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1TrumpetfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1TurtleDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1WhiteMulletDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1YellowBoxfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2BobaDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2BrownTroutDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2ButterflyfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2CuttlefishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2EmperorAngelfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2FrontosaDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2GoldCarpDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2GoldRedeyeDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2LongearSunfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2MoorishIdolDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2NimbochromisDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2OrangespineUnicornfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2OreochromisDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3AtlanticCodDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3BarracudaDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3BlueMarlinDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3CobiaDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3CorvinaDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3GiantSeaBassDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3GoliathGrouperDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3MahiMahiDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3StingrayDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3XipDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3YellowfinTunaDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: FoxMeat_TW
+    ToName: CookedFoxMeat_TW
+    CookTime: 30
+    Remove: false
+  - FromName: BearSteak_TW
+    ToName: CookedBearSteak_TW
+    CookTime: 30
+    Remove: false
+  - FromName: SA_CrocoMeat
+    ToName: SA_CrocoMeatCook
+    CookTime: 25
+    Remove: false
+  - FromName: SA_WhaleMeat
+    ToName: SA_RoastWhaleMeat
+    CookTime: 25
+    Remove: false
+  - FromName: SA_PenguinMeat
+    ToName: SA_PenguinMeatCook
+    CookTime: 25
+    Remove: false
+  - FromName: SA_SealMeat
+    ToName: SA_SealMeatCook
+    CookTime: 25
+    Remove: false
+  - FromName: SA_SharkMeat
+    ToName: SA_RoastSharkMeat
+    CookTime: 25
+    Remove: false
+  - FromName: SA_TurtleMeat
+    ToName: SA_TurtleMeatCook
+    CookTime: 25
+    Remove: false
+  - FromName: TF1AmberjackDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1AmurDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1BlackSpottedDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1BluetangDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1ClownfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1FoureyebutterflyfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1LionfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1PurplefishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1RainbowcichlidDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1TrumpetfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1TurtleDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1WhiteMulletDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1YellowBoxfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2BobaDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2BrownTroutDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2ButterflyfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2CuttlefishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2EmperorAngelfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2FrontosaDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2GoldCarpDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2GoldRedeyeDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2LongearSunfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2MoorishIdolDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2NimbochromisDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2OrangespineUnicornfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2OreochromisDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3AtlanticCodDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3BarracudaDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3BlueMarlinDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3CobiaDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3CorvinaDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3GiantSeaBassDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3GoliathGrouperDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3MahiMahiDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3StingrayDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3XipDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3YellowfinTunaDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: FoxMeat_TW
+    ToName: CookedFoxMeat_TW
+    CookTime: 30
+    Remove: false
+  - FromName: BearSteak_TW
+    ToName: CookedBearSteak_TW
+    CookTime: 30
+    Remove: false
+  - FromName: SA_CrocoMeat
+    ToName: SA_CrocoMeatCook
+    CookTime: 25
+    Remove: false
+  - FromName: SA_WhaleMeat
+    ToName: SA_RoastWhaleMeat
+    CookTime: 25
+    Remove: false
+  - FromName: SA_PenguinMeat
+    ToName: SA_PenguinMeatCook
+    CookTime: 25
+    Remove: false
+  - FromName: SA_SealMeat
+    ToName: SA_SealMeatCook
+    CookTime: 25
+    Remove: false
+  - FromName: SA_SharkMeat
+    ToName: SA_RoastSharkMeat
+    CookTime: 25
+    Remove: false
+  - FromName: SA_TurtleMeat
+    ToName: SA_TurtleMeatCook
+    CookTime: 25
+    Remove: false
+  - FromName: TF1AmberjackDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1AmurDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1BlackSpottedDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1BluetangDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1ClownfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1FoureyebutterflyfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1LionfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1PurplefishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1RainbowcichlidDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1TrumpetfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1TurtleDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1WhiteMulletDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF1YellowBoxfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2BobaDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2BrownTroutDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2ButterflyfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2CuttlefishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2EmperorAngelfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2FrontosaDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2GoldCarpDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2GoldRedeyeDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2LongearSunfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2MoorishIdolDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2NimbochromisDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2OrangespineUnicornfishDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF2OreochromisDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3AtlanticCodDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3BarracudaDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3BlueMarlinDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3CobiaDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3CorvinaDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3GiantSeaBassDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3GoliathGrouperDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3MahiMahiDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3StingrayDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3XipDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: TF3YellowfinTunaDrop
+    ToName: BakedFish
+    CookTime: 25
+    Remove: false
+  - FromName: FoxMeat_TW
+    ToName: CookedFoxMeat_TW
+    CookTime: 30
+    Remove: false
+  - FromName: BearSteak_TW
+    ToName: CookedBearSteak_TW
+    CookTime: 30
+    Remove: false
+beehiveData: 
+fermStationData: 
+sapData: 
+incineratorData: 
+fireplaceData: 
+teleportWorldData: 
+plantData: 
+build:
+- Wood:2:1:True

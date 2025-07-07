@@ -1,0 +1,65 @@
+name: BMR_MagicCrystal
+piecehammer: Hammer
+m_name: $bmr_magiccrystal
+sizeMultiplier: 1
+m_description: $bmr_magiccrystal_description
+customIcon: 
+clonePrefabName: 
+material: 
+damagedMaterial: 
+craftingStation: $piece_workbench
+piecehammerCategory: Crafting
+minStationLevel: 1
+amount: 1
+disabled: true
+adminonly: false
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: true
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: true
+notOnWood: false
+wearNTearData:
+  health: 200
+  damageModifiers:
+    m_blunt: Weak
+    m_slash: Normal
+    m_pierce: Resistant
+    m_chop: Normal
+    m_pickaxe: Normal
+    m_fire: Resistant
+    m_frost: Resistant
+    m_lightning: Weak
+    m_poison: Immune
+    m_spirit: Immune
+  noRoofWear: true
+  noSupportWear: true
+  supports: false
+  triggerPrivateArea: true
+craftingStationData: 
+cSExtensionData: 
+cSExtensionDataList:
+- MainCraftingStationName: BMR_SpellTable
+  maxStationDistance: 5
+  continousConnection: false
+  stack: false
+contData: 
+smelterData: 
+cookingStationData: 
+beehiveData: 
+fermStationData: 
+sapData: 
+incineratorData: 
+fireplaceData: 
+teleportWorldData: 
+plantData: 
+build:
+- Crystal:18:1:True
+- Obsidian:24:1:True
+- BlackMarble:12:1:True
+- BlackMetal:8:1:True
+- Eitr:20:1:True

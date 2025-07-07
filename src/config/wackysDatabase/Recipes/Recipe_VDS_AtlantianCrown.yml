@@ -1,0 +1,16 @@
+name: VDS_AtlantianCrown
+clonePrefabName: 
+craftingStation: $bba_boatyard
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $bba_boatyard
+amount: 1
+disabled: false
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- Ruby:1:0:True
+- ElectrumBar_RtD:5:0:True
+- SerpentScale:5:1:True
+- FairySilkG_RtD:10:0:True

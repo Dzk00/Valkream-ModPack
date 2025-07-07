@@ -1,0 +1,15 @@
+name: rae_SaddleHorse
+clonePrefabName: 
+craftingStation: $piece_workbench
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- FineWood:10:0:True
+- Tin:2:0:True
+- rae_HorseHide:5:0:True

@@ -1,0 +1,14 @@
+name: SilverX3
+clonePrefabName: Silver
+craftingStation: $piece_forge
+minStationLevel: 5
+maxStationLevelCap: 
+repairStation: 
+amount: 3
+disabled: false
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- SilverOre:3:0:True
+- Coal:15:0:True

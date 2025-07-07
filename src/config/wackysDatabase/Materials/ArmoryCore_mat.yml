@@ -1,0 +1,28 @@
+name: ArmoryCore_mat
+original: BlackCore_mat
+overwrite: false
+changes:
+  colors:
+    _Color: [0, 0, 1, 1]
+    _EmissionColor: [0, 0, 1, 1]
+  floats:
+    _Cutoff: 0.5
+    _Glossiness: 0.133
+    _GlossMapScale: 1
+    _SmoothnessTextureChannel: 0
+    _Metallic: 0
+    _SpecularHighlights: 1
+    _GlossyReflections: 1
+    _BumpScale: 1
+    _Parallax: 0.02
+    _OcclusionStrength: 1
+    _DetailNormalMapScale: 1
+    _UVSec: 0
+    _Mode: 0
+    _SrcBlend: 1
+    _DstBlend: 0
+    _ZWrite: 1
+  textures:
+    _MainTex: BlackCore_d
+    _BumpMap: BlackCore_n
+    _EmissionMap: BlackCore_e

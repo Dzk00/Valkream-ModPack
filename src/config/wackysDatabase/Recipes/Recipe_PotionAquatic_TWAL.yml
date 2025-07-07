@@ -1,0 +1,16 @@
+name: PotionAquatic_TWAL
+clonePrefabName: PotionAquatic_TW
+craftingStation: $pp_potion_cauldron
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 3
+disabled: false
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- ShardModer_TW:2:0:True
+- MushroomWizardbutter_TW:3:0:True
+- FishRaw:6:0:True
+- Chitin:2:0:True

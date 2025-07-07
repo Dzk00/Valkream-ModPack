@@ -1,0 +1,15 @@
+name: FishWraps10_RtD
+clonePrefabName: 
+craftingStation: $piece_cauldron
+minStationLevel: 1
+maxStationLevelCap: 4
+repairStation: 
+amount: 2
+disabled: false
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- FishCooked10_RtD:1:0:False
+- Turnip:4:0:False
+- SeaWeed_RtD:4:0:False

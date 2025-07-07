@@ -1,0 +1,16 @@
+name: rh_bowoffrey
+clonePrefabName: 
+craftingStation: $piece_fletchertable_TW
+minStationLevel: 2
+maxStationLevelCap: 5
+repairStation: 
+amount: 1
+disabled: false
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- YggdrasilWood:20:10:True
+- WolfPelt:10:5:True
+- Ruby:2:1:True
+- Eitr:10:5:True

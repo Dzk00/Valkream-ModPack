@@ -1,0 +1,14 @@
+name: BMR_WoodCuttingScroll5
+clonePrefabName: 
+craftingStation: $piece_wizardtable_TW
+minStationLevel: 2
+maxStationLevelCap: 
+repairStation: 
+amount: 20
+disabled: true
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- BMR_PaperAncient:20:0:True
+- AdminCoins:1:0:False

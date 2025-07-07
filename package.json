@@ -1,0 +1,20 @@
+{
+  "name": "valkream-modpack",
+  "productName": "Valkream Updater",
+  "version": "2.1.0-alpha",
+  "description": "Thunderstore Valheim modpack for Valkream",
+  "author": "Valkream Team",
+  "scripts": {
+    "build": "node build-script.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "valkream-function-lib": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jean-Chante/Valkream-ModPack.git"
+  }
+}

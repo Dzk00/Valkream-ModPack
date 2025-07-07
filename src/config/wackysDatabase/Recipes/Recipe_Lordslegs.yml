@@ -1,0 +1,28 @@
+name: Lordslegs
+clonePrefabName: Lordslegs
+craftingStation: $piece_forge
+minStationLevel: 2
+maxStationLevelCap: 7
+repairStation: 
+amount: 1
+disabled: true
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: 
+- LordsCoins:10
+- ElectrumBar_RtD:20
+- BMR_FireEssence:10
+- BMR_IceEssence:10
+- BMR_LightningEssence:10
+- BMR_PoisonEssence:10
+- SurtlingCore:5
+- Thunderstone:5
+reqs:
+- LordsCoins:20:10:True
+- ElectrumBar_RtD:40:20:True
+- BMR_FireEssence:20:10:True
+- BMR_IceEssence:20:10:True
+- BMR_LightningEssence:20:10:True
+- BMR_PoisonEssence:20:10:True
+- SurtlingCore:10:5:True
+- Thunderstone:10:5:True
