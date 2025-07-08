@@ -1,8 +1,3 @@
 {
-  "gameFolderToClean": [
-    "/BepInEx/cache",
-    "/BepInEx/config/wackysDatabase/Cache",
-    "/BepInEx/config/Marketplace/SavedData"
-  ],
   "configFolderToClean": ["/wackysDatabase/Cache", "/Marketplace/SavedData"]
 }
