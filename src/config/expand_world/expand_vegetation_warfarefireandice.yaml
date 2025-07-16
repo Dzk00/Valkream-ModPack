@@ -356,11 +356,13 @@
   forestTresholdMax: 1.2
 - prefab: Pickable_Mushroom_Wintercap_TW
   enabled: true
-  max: 0.7
+  max: 1
+  max: 3
   randTilt: 10
   chanceToUseGroundTilt: 1
   biome: DeepNorth
   minAltitude: 0.01
-  maxAltitude: 60
+  maxAltitude: 1000
   maxTerrainDelta: 2
-  groupRadius: 32
+  groupSizeMax: 3
+  groupRadius: 3
